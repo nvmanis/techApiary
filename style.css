@@ -10,3 +10,8 @@ nav{
 h2{
   text-align: center;
 }
+
+#logo{
+    width:5%;
+    padding:10px;
+}

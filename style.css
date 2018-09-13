@@ -10,14 +10,21 @@ nav{
 h2{
   text-align: center;
 }
-<<<<<<< HEAD
 
 #logo{
     width:5%;
     padding:10px;
+    margin:0;
 }
-=======
-article:hover{
-  opacity: 0.5;
+
+nav a{
+    color:darkred;
+    text-decoration: none;
+    padding:5px;
+    margin-right:15px;
 }
->>>>>>> f20ae76205299d95ee91420c5a412097737be05a
+
+nav a:hover{
+    color:white;
+    background-color:black;
+}

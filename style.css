@@ -10,3 +10,6 @@ nav{
 h2{
   text-align: center;
 }
+article:hover{
+  opacity: 0.5;
+}

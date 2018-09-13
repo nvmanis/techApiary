@@ -10,9 +10,17 @@ nav{
 h2{
   text-align: center;
 }
+<<<<<<< HEAD
+
+#logo{
+    width:5%;
+    padding:10px;
+}
+=======
 article:hover{
   opacity: 0.5;
 }
+<<<<<<< HEAD
 nav a{
   color: red;
   text-decoration: none;
@@ -20,3 +28,6 @@ nav a{
 nav a:hover{
   color: black;
 }
+=======
+>>>>>>> f20ae76205299d95ee91420c5a412097737be05a
+>>>>>>> origin/style

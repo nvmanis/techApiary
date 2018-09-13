@@ -13,3 +13,10 @@ h2{
 article:hover{
   opacity: 0.5;
 }
+nav a{
+  color: red;
+  text-decoration: none;
+}
+nav a:hover{
+  color: black;
+}

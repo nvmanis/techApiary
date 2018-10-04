@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    background-color:black;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+}
+form{
+    text-align: center;
+    background-color:lightgray;
+}
+
+form input {
+    padding:5px;
+    font-size:18pt;
+    margin:20px;
+    border-radius: 15px 15px 15px;
+}
+
+form button {
+    padding:10px;
+    font-size:18pt;
+    margin:20px;
+    color:white;
+    border-radius: 15px 15px 15px;
+    background-color:rgb(182, 31, 31);
+}

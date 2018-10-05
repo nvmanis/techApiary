@@ -30,7 +30,7 @@ nav{
 
 .hero-image{
   height: 300px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,8 +51,11 @@ nav{
   border:none;
   padding:10px 30px;
   font-size:16pt;
-  position:absolute;
-  left:45%;
+  display: block;
+  border-radius: 15px 15px 15px;
+  box-shadow: 8px 8px 8px #1d1818;
+  margin-left: auto;
+  margin-right: auto;
   margin-top:80px;
 }
 
@@ -95,7 +98,7 @@ nav a:hover{
 .article-content{
   border:solid 1px black;
   width:400px;
-  margin:50px;
+  margin:30px;
   margin-top:10px;
   padding-bottom:40px;
 }

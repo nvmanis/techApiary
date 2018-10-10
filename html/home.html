@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="../css/home.css"/>
     <title>TechAPIary</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="../js/article.js"></script>
+    <script src="../js/articles.js"></script>
 </head>
 
 <body>
@@ -25,52 +27,15 @@
         <div class="hero-text">Welcome to TechAPIary</div>
         <button class="hero-button">Explore</button>
     </div>
-    
+
     <h2 id="article-header">What's Buzzing</h2>
 
 <div class="article-container">
-    <article class="article-content">
-      <h3>The New iPhone X</h3>
-      <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-      <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-      <a href="">Read More</a>
-    </article>
-
-    <article class="article-content">
-        <h3>The New iPhone X</h3>
-        <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-        <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-        <a href="">Read More</a>
-      </article>
-
-      <article class="article-content">
-        <h3>The New iPhone X</h3>
-        <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-        <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-        <a href="">Read More</a>
-      </article>
-
-      <article class="article-content">
-        <h3>The New iPhone X</h3>
-        <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-        <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-        <a href="">Read More</a>
-      </article>
-
-      <article class="article-content">
-        <h3>The New iPhone X</h3>
-        <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-        <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-        <a href="">Read More</a>
-      </article>
-
-      <article class="article-content">
-        <h3>The New iPhone X</h3>
-        <img src="https://placebear.com/400/200" alt="article image" title="Article Image"/>
-        <p>The iPhone X has been shooting off of the sheleves recently....</p>  
-        <a href="">Read More</a>
-      </article>
-
+    <script>
+      for(let i = 0; i < articles.length; i++){
+        articles[i].outputArticle();
+      }
+    </script>
 </div>
 
 

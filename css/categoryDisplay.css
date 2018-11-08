@@ -14,11 +14,13 @@ html{
    padding:5px;
    right:30px;
    text-decoration: none;
+   transition: background-color 0.5s ease;
  }
  
  #logout:hover{
    background-color:black;
    color:white;
+   transition: background-color 0.5s ease;
  }
 
  h1{
@@ -64,10 +66,13 @@ h2{
     text-decoration: none;
     padding:5px;
     margin-right:15px;
+    transition: background-color 0.5s ease;
   }
+
   nav a:hover{
     color: white;
     background-color:black;
+    transition: background-color 0.5s ease;
   }
   
   form{
@@ -91,13 +96,14 @@ h2{
       margin-left:5px;
       padding:5px 10px;
       font-size:10pt;
+      transition: background-color 0.5s ease;
   }
 
 form a:hover{
     color:rgb(182, 31, 31);
     background-color:lightgray;
+    transition: background-color 0.5s ease;
 }
-
 
   #copyright{
     text-align: center;

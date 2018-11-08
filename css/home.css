@@ -14,11 +14,17 @@ body{
   padding:5px;
   right:30px;
   text-decoration: none;
+  transition: background-color 0.5s ease;
 }
 
 #logout:hover{
   background-color:black;
   color:white;
+  transition: background-color 0.5s ease;
+}
+
+article img:hover{
+  opacity: .7;
 }
 
 nav{
@@ -57,11 +63,13 @@ nav{
   margin-left: auto;
   margin-right: auto;
   margin-top:80px;
+  transition: background-color 0.5s ease;
 }
 
 .hero-button:hover{
   background-color: white;
-  color:black
+  color:black;
+  transition: background-color 0.5s ease;
 }
 
 #article-header{
@@ -75,19 +83,18 @@ nav{
     min-width: 40px;
 }
 
-article:hover{
-  opacity: 0.5;
-}
-
 nav a{
   color: rgb(182, 31, 31);
   text-decoration: none;
   padding:5px;
   margin-right:15px;
+  transition: background-color 0.5s ease;
 }
+
 nav a:hover{
   color: white;
   background-color:black;
+  transition: background-color 0.5s ease;
 }
 
 .article-container{

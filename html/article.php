@@ -12,7 +12,7 @@
             <a href="login.html" id="logout">Log Out</a>
             <nav id="categories">
                 <img id="logo" src="../images/bee.png" alt="TechAPIary" title="TechAPIary"/>
-                <a href="home.html">Home</a>
+                <a href="home.php">Home</a>
                 <a href="categoryDisplay.html">Recent News</a>
                 <a href="categoryDisplay.html">Mac/PC</a>
                 <a href="categoryDisplay.html">Mobile</a>

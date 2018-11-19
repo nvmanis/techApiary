@@ -11,6 +11,12 @@
 <body>
 
     <section id="heading">
+        <?php
+            if(isset($_POST["username"])){
+                $username = $_POST["username"];
+                echo("<p class=username> You are logged in as: <strong>$username</strong></p>");
+            } 
+        ?>
         <a href="login.html" id="logout">Log Out</a>
         <nav id="categories">
             <img id="logo" src="../images/bee.png" alt="TechAPIary" title="TechAPIary"/>

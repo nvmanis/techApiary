@@ -5,6 +5,8 @@
     <title>Article</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script type="text/javascript" src="../js/clickEvents.js"></script>
+	<script type="text/javascript" src="../js/commentsData.js"></script>
+	<script type="text/javascript" src="../js/comments.js"></script>
 </head>
 
 <body>
@@ -43,15 +45,7 @@
 
             <table>
                     <caption>Comments</caption>
-                    <tr id="titles">
-                        <td><p class="comment">"Yo dude I love my new iPhone, idc what anyone else says"</p><p class="user">User: John Locke</p></td>
-                    </tr>
-                    <tr>
-                            <td><p class="comment">"iPhones suck"</p><p class="user">User: Joe Jonas</p></td>
-                    </tr>
-                    <tr>
-                            <td><p class="comment">"What about the notch tho"</p><p class="user">User: Danielle Doe</p></td>
-                    </tr>
+                    <script>outputComments();</script>
                     <?php
                       if(isset($_POST["name"])){
                         $comment = $_POST["comment"];

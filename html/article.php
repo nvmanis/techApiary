@@ -33,7 +33,7 @@
                 <h1>The New iPhone X: Where Are the Headphone Jacks?</h1>
                 <h3>By Mark Wattney</h3>
             <figure>
-                <img id="articleImg" src="https://placebear.com/500/300" alt="figure" title="figure"/>
+                <img id="articleImg" src="../images/tech.png" alt="figure" title="figure"/>
                 <figcaption>A depiction of a bear, photo taken from placebear.com</figcaption>
             </figure>
 

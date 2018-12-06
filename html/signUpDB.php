@@ -7,10 +7,10 @@ $pdo = new PDO($connString,$user,$pass);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $username = $_POST['username'];
 $password = $_POST['password'];
-
-$sql = "SELECT `Username`, `Password` FROM `users` WHERE Username=". "'$username'" . " and Password=" . "'$password'";
+$string = "SELECT `Username` FROM `users` WHERE Username=". "'$username'";
+$sql = $string;
 $result = $pdo->query($sql);
-if($result -> num_rows > 0){
+if($result->fetchColumn()){
   echo("<script language='javascript' type='text/javascript'>alert('There is already a user with that username and password please try again.'); window.location='signUp.php';</script>");
 }else{
   $string = "INSERT INTO `users`(`Username`, `Password`) VALUES (" . "'$username'" . "," . "'$password'" . ")";

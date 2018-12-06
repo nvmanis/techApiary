@@ -8,12 +8,12 @@
 
 <body>
     <h1>Log In to TechAPIary</h1>
-    <form action="home.php" method="post">
+    <form action="loginDB.php" method="post">
         <input required type="text" name="username" placeholder="Username"><br/>
         <input required type="password" name="password" placeholder="Password"><br/>
-        <a href="login.html">Don't Have an Account?</a><br/>
+        <a href="signUp.php">Don't Have an Account?</a><br/>
         <input class="loginSubmit" type="submit" name="" value="Submit">
-       
+
     </form>
     <img id="bee" src="../images/bee.png" alt="logo" title="Logo"/>
     <p id="copyright"><small>&copy Copyright TechAPIary 2018</small></p>
